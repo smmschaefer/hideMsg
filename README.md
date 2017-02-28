@@ -7,8 +7,8 @@ Encryption using PBKDF2 with SHA1
 
 # To encrypt and embed
 
- encemb -c <cover filename> -m <message filename> -s <stego filename> -p <password>
+ encemb -c < cover filename > -m < message filename > -s < stego filename > -p < password >
 
 # To decrypt and extract
 
-extdec -s <stego filename> -m <message filename> -p <password>
+extdec -s < stego filename > -m < message filename > -p < password >
